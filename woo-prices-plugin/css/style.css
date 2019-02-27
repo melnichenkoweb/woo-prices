@@ -1,0 +1,65 @@
+.prices-settings-caption {
+    display: inline-block;
+    width: 25%;
+}
+.prices-settings-caption label {
+    display: block;
+}
+.prices-settings-input {
+    display: inline-block;
+}
+.prices-settings-input input[type="text"] {
+    width: 200px;
+}
+.prices-buttons {
+	padding: 15px;
+}
+.prices-button {
+    display: inline-block;
+}
+.prices-products,
+.prices-products td,
+.prices-products th {
+	border: 1px solid #ccc;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+.prices-products input {
+	margin: 0;
+}
+.prices-check {
+	padding: 5px;
+	text-align: center;
+}
+.prices-id,
+.prices-title{
+	padding: 5px 15px;
+}
+.prices-title {
+	width: 200px;
+}
+.prices-title.prices-new {
+	padding: 0;
+}
+.prices-title.prices-new input {
+	width: 100%;
+}
+.prices-id {
+	text-align: center;
+	width: 30px;
+}
+.prices-del {
+	background-color: #ff0000!important;
+}
+.prices-changed {
+	background-color: #20ff00;
+}
+.prices-del-new {
+	cursor: pointer;
+}
+.prices-del-new:hover {
+	text-decoration: underline;
+}
+.prices-check {
+	width: 65px;
+}
